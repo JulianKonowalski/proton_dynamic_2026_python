@@ -8,7 +8,9 @@ na stałe utracił połączenie sieciowe z serwerem, co spowodowało dziurę w
 telemetrii, jednakże udało się odzyskać kopię danych z pamięci flash płytki oraz
 zapisać ją w postaci pliku `resources/test_data.txt`. Struktura danych w tym
 pliku wygląda następująco:
-yyyy-mm-dd hh-mm-ss __typ_czujnika__ __id_czujnika__ __pomiar__
+```
+yyyy-mm-dd hh-mm-ss <sensor_type> <sensor_id> <value>
+```
 
 Typ czujnika może być jedną z dwóch predefiniowanych wartości. __ACC__ oznacza
 akcelerometr, natomiast __TEMP__ sygnalizuje termometr. ID czujnika jest
